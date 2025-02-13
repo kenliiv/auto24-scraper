@@ -10,7 +10,7 @@ from openpyxl.styles import Border, Side
 from openpyxl.utils.dataframe import dataframe_to_rows
 from selenium import webdriver
 
-import Vehicle
+from models import Vehicle
 
 
 def update_excel_with_new_data(vehicles: list[Vehicle], filename):

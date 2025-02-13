@@ -4,7 +4,7 @@ import threading
 from bs4 import BeautifulSoup, Tag
 from selenium import webdriver
 
-from Vehicle import Vehicle
+from models.Vehicle import Vehicle
 
 
 class Auto24Scraper:
