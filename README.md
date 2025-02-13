@@ -8,11 +8,13 @@ Currently only supports retrieving data from the search result pages, not the in
 
 ## How to use
 
-Main logic and current entry point is in `main.py`.
+Main logic is in `Auto24Scraper.py`, with examples of using it being shown in `car_update.py` and `motorcycle_update.py`.
 
 This scraper uses the Selenium browser automation library to scrape the Auto24 website for vehicle listings.
 
 Excel table row structure is defined in `Vehicle.py` under the `to_dict` method.
+
+Excel file manipulation is done in `utilities/excel_utils.py`. Also image saving, but let's not talk about that, not very clean code.
 
 Once you get dependencies imported, you can use the scraper like this:
 
