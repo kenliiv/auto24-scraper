@@ -25,6 +25,7 @@ Excel table row structure is defined in `Vehicle.py` under the `to_dict` method.
 Excel file manipulation is done in `utilities/excel_utils.py`. Also image saving, but let's not talk about that, not very clean code.
 
 Dependencies are outlined in `requirements.txt`. But what you really need is (hopefully exhaustive list):
+
 `pip install selenium openpyxl beautifulsoup4 pandas pillow`. 
 
 Once you get dependencies imported, you can use the scraper like this:
