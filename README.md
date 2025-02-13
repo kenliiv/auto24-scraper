@@ -26,7 +26,7 @@ Excel file manipulation is done in `utilities/excel_utils.py`. Also image saving
 
 Dependencies are outlined in `requirements.txt`. But what you really need is (hopefully exhaustive list):
 
-`pip install selenium openpyxl beautifulsoup4 pandas pillow`. 
+`pip install selenium openpyxl beautifulsoup4 pandas pillow`
 
 Once you get dependencies imported, you can use the scraper like this:
 
