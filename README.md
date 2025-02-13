@@ -1,6 +1,6 @@
 # 🚗 auto24Scraper
 
-A selenium-based web scraper for Auto24.ee, a popular Estonian car sales website.
+A selenium-based web scraper for Auto24.ee, a popular Estonian vehicle sales website.
 
 Mainly uploading this to let others find weird-acting sellers who scheme with car prices.
 And because the auto24 developers seem to be hell-bent on making the website bot-unfriendly while also not providing an API for public use, shame shame shame.
